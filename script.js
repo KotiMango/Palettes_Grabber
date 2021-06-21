@@ -44,7 +44,7 @@ for (let i = 0; i < 50; i++) {
           parseInt(rgbVals[0]),
           parseInt(rgbVals[1]),
           parseInt(rgbVals[2])
-        )
+        ).toUpperCase()
       );
     }
     paletteTitleAndSwatches.push({
